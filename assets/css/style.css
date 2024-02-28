@@ -270,20 +270,25 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
+/* #hero p span {
   font-weight: bold;
   font-size: 50px;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
-  background-image: url("../img/flame.gif"); /* Specify the correct path to the image */
+  background-image: url("../img/flame.gif"); 
   background-size: cover;
   background-position: center;
   background-clip: text;
   -webkit-background-clip: text;
+} */
+
+#hero p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
 }
-
-
 
 
 @media (min-width: 1024px) {
